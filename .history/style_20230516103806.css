@@ -1,0 +1,7 @@
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.site {
+    border: 10%;
+}

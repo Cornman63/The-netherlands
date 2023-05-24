@@ -1,0 +1,31 @@
+.top, .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    background-color:#C8102E;
+}
+.bottom{
+    background-color: #003DA5;
+    height: 520%;
+}
+
+.site {
+    display: flex;
+    border: 1%;
+    margin: 1%;
+    margin-right: 10%;
+    align-content: center;
+}
+.link {
+    text-decoration: none;
+}
+#wafel {
+    width: 10%;
+    height: 10%;
+}
+.food1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

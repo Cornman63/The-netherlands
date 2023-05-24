@@ -1,0 +1,48 @@
+.top, .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    background-color:#861023;
+    margin: auto;
+    padding: 2%;
+    font-size: 20%;
+}
+.bottom{
+    background-color: #053484;
+}
+
+.site {
+    display: flex;
+    border: 1%;
+    margin: 1%;
+    margin-right: 10%;
+    align-content: center;
+    width: 90%;
+}
+.link{
+    text-decoration: none;
+}
+.link:link {
+    color:black;
+}
+.link:visited {
+    color:black;
+}
+.link:hover {
+    color:white;
+}
+
+#wafel, #hagel, #herring, #lico {
+    width: 20%;
+    height: 20%;
+}
+.food1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.food {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,12 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    align-content:center
+}
+.site {
+    display: flex;
+    border: 1%;
+    margin: 1%;
+    margin-right: 10%;
+    align-content: center;
+}

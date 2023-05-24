@@ -1,0 +1,7 @@
+*{
+    display: flex;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}

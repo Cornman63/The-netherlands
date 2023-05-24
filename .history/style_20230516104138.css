@@ -1,0 +1,16 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center
+    background-color:#C8102E
+}
+.site {
+    display: flex;
+    border: 1%;
+    margin: 1%;
+    margin-top: 3%;
+    margin-right: 10%;
+    align-content: center;
+    background-color: ;
+}
