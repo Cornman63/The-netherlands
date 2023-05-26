@@ -36,8 +36,6 @@
 #wafel, #hagel, #herring, #lico {
     width: 50%;
     height: 50%;
-    display: flex;
-    flex-direction: row;
 }
 
 .food {
@@ -45,15 +43,4 @@
     flex-direction: row;
     width: 50%;
     flex-wrap: wrap;
-    margin: auto;
-    background-color:grey;
-    padding: 1%;
-    border-radius: 1%;
-}
-#foodh {
-    margin: auto;
-    font-size: large;
-    align-content:center;
-    justify-content: center;
-    padding: 1%;
 }
