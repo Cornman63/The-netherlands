@@ -35,7 +35,7 @@
     display: flex;
     flex-direction: column;
 }
-.item{
+.food {
     max-width: 80%;
     margin: auto;
     display: flex;
@@ -47,6 +47,6 @@
     display: flex;
     flex-direction: row;
 }
-.par {
+.start {
     padding: 1%;
 }

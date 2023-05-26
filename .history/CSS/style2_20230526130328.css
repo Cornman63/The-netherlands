@@ -33,20 +33,20 @@
 }
 .foodmain {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-.item{
-    max-width: 80%;
+.food1 {
+    max-width: 400px;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
-.img {
-    width: 20%;
-    height: 20%;
+#wafel, #hagel, #herring, #lico {
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-direction: row;
 }
-.par {
-    padding: 1%;
+.start {
+    padding: 20%;
 }
