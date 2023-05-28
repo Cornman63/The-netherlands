@@ -58,8 +58,8 @@ footer{
 .food,.h {
     margin: auto;
 }
-.sportmain, .soceqmain {
-    margin-top: 3%;
+.sportmain {
+    border-top: 5%;
 }
 .h {
     justify-content: center;

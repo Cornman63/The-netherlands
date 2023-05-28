@@ -47,19 +47,16 @@ footer{
     background-size: cover;
     border: 5%;
     overflow: hidden;
-    background-image:url(../images/skate.jpeg)
+    background-image:url(../images/sports.png)
 }
 .foodmain {
     background-image: url(../images/dinner2.png);
 }
-.soceqmain {
-    background-image: url(../images/soceq.webp);
+.sportsmain {
+    background-image: url(../images/dinner.png);
 }
 .food,.h {
     margin: auto;
-}
-.sportmain, .soceqmain {
-    margin-top: 3%;
 }
 .h {
     justify-content: center;

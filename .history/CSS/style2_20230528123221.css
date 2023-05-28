@@ -1,14 +1,13 @@
-* {
-    margin:0;
-}
 header{
     background-color: #861023;
-    width: 100%;
+    margin: -8px;
+    padding: -8px;
 }
 
 footer{
     background-color: #053484;
-    width: 100%;
+    margin: -8px;
+    padding: -8px;
 }
 
 .top, .bottom {
@@ -41,37 +40,14 @@ footer{
 .link:hover {
     color:white;
 }
-.foodmain, .sportmain, .soceqmain {
+.foodmain {
     display: flex;
     flex-direction: column;
-    background-size: cover;
+    background-image: url(../images/herring.jpg);
     border: 5%;
-    overflow: hidden;
-    background-image:url(../images/skate.jpeg)
-}
-.foodmain {
-    background-image: url(../images/dinner2.png);
-}
-.soceqmain {
-    background-image: url(../images/soceq.webp);
-}
-.food,.h {
-    margin: auto;
-}
-.sportmain, .soceqmain {
-    margin-top: 3%;
-}
-.h {
-    justify-content: center;
-    align-content:center;
-    margin-top: 2%;
-    margin-bottom: 1%;
-    text-align: center;
-    font-size:200%;
-    text-decoration: underline;
 }
 .food {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 .item{
     max-width: 80%;
@@ -79,10 +55,10 @@ footer{
     display: flex;
     flex-direction: row;
     padding: 3%;
-    background-color: rgba(255,255,255,0.75);
+    background-color: white;
     border:5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-bottom: 5%;
+
 }
 .img {
     width: 20%;
@@ -92,12 +68,4 @@ footer{
 }
 .par {
     padding: 1%;
-}
-
-.intro {
-    width: 75%;
-    margin: auto;
-}
-body {
-    background-color:rgb(223, 222, 222);
 }

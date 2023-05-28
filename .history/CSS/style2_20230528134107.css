@@ -47,7 +47,7 @@ footer{
     background-size: cover;
     border: 5%;
     overflow: hidden;
-    background-image:url(../images/skate.jpeg)
+    background-image:url(../images/sports.png)
 }
 .foodmain {
     background-image: url(../images/dinner2.png);
@@ -57,9 +57,6 @@ footer{
 }
 .food,.h {
     margin: auto;
-}
-.sportmain, .soceqmain {
-    margin-top: 3%;
 }
 .h {
     justify-content: center;

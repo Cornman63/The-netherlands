@@ -44,22 +44,13 @@ footer{
 .foodmain, .sportmain, .soceqmain {
     display: flex;
     flex-direction: column;
+    background-image: url(../images/dinner2.png);
     background-size: cover;
     border: 5%;
     overflow: hidden;
-    background-image:url(../images/skate.jpeg)
-}
-.foodmain {
-    background-image: url(../images/dinner2.png);
-}
-.soceqmain {
-    background-image: url(../images/soceq.webp);
 }
 .food,.h {
     margin: auto;
-}
-.sportmain, .soceqmain {
-    margin-top: 3%;
 }
 .h {
     justify-content: center;
@@ -94,7 +85,7 @@ footer{
     padding: 1%;
 }
 
-.intro {
+.stroopwafel {
     width: 75%;
     margin: auto;
 }

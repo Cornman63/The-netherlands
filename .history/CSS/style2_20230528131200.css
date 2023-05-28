@@ -1,5 +1,6 @@
 * {
     margin:0;
+    background-color: aliceblue;
 }
 header{
     background-color: #861023;
@@ -41,34 +42,24 @@ footer{
 .link:hover {
     color:white;
 }
-.foodmain, .sportmain, .soceqmain {
+.foodmain {
     display: flex;
     flex-direction: column;
+    background-image: url(../images/dinner2.png);
     background-size: cover;
     border: 5%;
     overflow: hidden;
-    background-image:url(../images/skate.jpeg)
 }
-.foodmain {
-    background-image: url(../images/dinner2.png);
-}
-.soceqmain {
-    background-image: url(../images/soceq.webp);
-}
-.food,.h {
+.food,#foodh {
     margin: auto;
 }
-.sportmain, .soceqmain {
-    margin-top: 3%;
-}
-.h {
+#foodh {
     justify-content: center;
     align-content:center;
     margin-top: 2%;
     margin-bottom: 1%;
     text-align: center;
     font-size:200%;
-    text-decoration: underline;
 }
 .food {
     margin-bottom: 2%;
@@ -94,10 +85,7 @@ footer{
     padding: 1%;
 }
 
-.intro {
+.stroopwafel {
     width: 75%;
     margin: auto;
-}
-body {
-    background-color:rgb(223, 222, 222);
 }
