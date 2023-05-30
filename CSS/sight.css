@@ -1,0 +1,122 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header, footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+.top, .bottom {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 2%;
+    font-size: 150%;
+}
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(139, 136, 136, 0.8);
+    
+  }
+  .Bilder{
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+  }
+  .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 2%;
+    background-color: rgba(155, 155, 155, 0.75);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1rem;
+  background-size: cover;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(95, 93, 93, 0.5)), url(https://s30876.pcdn.co/wp-content/uploads/Netherlands3.jpg.optimal.jpg);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .sight {
+    margin-bottom: 40px;
+  }
+  
+  .sight h2 {
+    margin: 0;
+  }
+  
+  .sight p {
+    margin-bottom: 10px;
+  }
+  
+  .sight img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .top {
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .site {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .site:last-child {
+    margin-right: 0; 
+  }
+  
+  .link {
+    text-decoration: none;
+    color:white;
+    width: 90%;
+    height: 90;
+  }
+  
+  .bottom {
+    text-align: center;
+    padding: 10px;
+  }
+  .A{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;   
+    color: white;
+  }
+  
