@@ -1,0 +1,91 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 5vh;
+}
+
+#introrubrik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;   
+    background-image: linear-gradient(white, #053484);
+}
+
+
+.ToDo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 2%;
+    background-color: rgba(255,255,255,0.75);
+}
+
+#ToDo{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#info{
+  border: 2px solid black;
+  padding: 2%;
+  margin: 2%;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Bilder{
+  width: 200px;
+  height: 200px;
+  margin: 1%;
+}
+
+.ToDo { animation: fadeIn 7.5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#homeVideo{
+  padding: 2%;
+  margin: 2%;
+}
+
+#Video {
+  width: 100%;
+  height: 100%;
+}
+
+#Button {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
